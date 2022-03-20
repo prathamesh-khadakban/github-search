@@ -76,3 +76,7 @@ LOG
 - create form and bind it to a <div>
 - impelemt fetch API
 - create state for error,data,loading
+
+Issue
+
+- is going to call api rapidly as i have to create seprate component for Form and seprate for data. as i have all in one component get rerender.
