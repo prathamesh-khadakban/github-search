@@ -1,5 +1,11 @@
+import GithubUsers from "./Components/GithubUsers";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <GithubUsers></GithubUsers>
+    </div>
+  );
 }
 
 export default App;
