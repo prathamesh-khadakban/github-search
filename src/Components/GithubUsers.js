@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import GithubUser from "./GithubUser";
 
 function GithubUsers() {
-  const [user, setUser] = useState(null);
+  const [userName, setUserName] = useState();
   return (
     <div>
       <h2>Find GitHub User</h2>
@@ -9,11 +10,13 @@ function GithubUsers() {
         <input
           type="text"
           onChange={(e) => {
-            setUser(e.target.value);
+            setUserName(e.target.value);
           }}
         />
       </form>
-      <div className="DisplayContent">{user}</div>
+      <div className="DisplayContent">
+        {userName && <GithubUser username={userName} />}
+      </div>
     </div>
   );
 }
