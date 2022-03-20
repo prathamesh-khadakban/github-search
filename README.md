@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+LOG
+
+- remove encessary part
+- create custom component
+- create form and bind it to a <div>
+- impelemt fetch API
+- create state for error,data,loading
+
+Issue
+
+- is going to call api rapidly as i have to create seprate component for Form and seprate for data. as i have all in one component get rerender.
